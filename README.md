@@ -2,6 +2,9 @@
 
 A movie search application built with **React**, **TypeScript**, and **Redux Toolkit**
 
+## Live Version 
+[**Live Demo**](https://jovial-dodol-183671.netlify.app/)
+
 ## Features
 - Search movies by title, year, and type.
 - View detailed information about a movie or series.
