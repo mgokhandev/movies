@@ -31,7 +31,7 @@ const MovieDetail: React.FC = () => {
         <div className="container mt-4">
             <div className="row">
                 <div className="col-md-4">
-                    {apiResponse.Poster && (
+                    {apiResponse.Poster && apiResponse.Poster !== 'N/A' && (
                         <img
                             src={apiResponse.Poster}
                             alt={apiResponse.Title}
